@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> Login Page </title>
+    <style>
+        Body {
+            font-family: Calibri, Helvetica, sans-serif;
+            background-color: #444;
+        }
+
+        button {
+            background-color: #0d0410;
+            width: 100%;
+            color: aliceblue;
+            padding: 10px;
+            margin: 10px 0px;
+            border: none;
+            cursor: pointer;
+        }
+
+        form {
+            border: 3px solid #444;
+        }
+
+        input[type=text],
+        input[type=password] 
+         {
+            width: 100%;
+            margin: 8px 0;
+            padding: 12px 20px;
+            display: inline-block;
+            border: 2px solid rgb(0, 0, 0);
+            box-sizing: border-box;
+        }
+
+        input[type=date] {
+            width: 25%;
+            margin: 8px 0;
+            padding: 12px 20px;
+            display: inline-block;
+            border: 2px solid rgb(0, 0, 0);
+            box-sizing: border-box;
+        }
+
+        
+
+        button:hover {
+            opacity: 0.7;
+        }
+
+        .cancelbtn {
+            width: auto;
+            padding: 10px 18px;
+            margin: 10px 5px;
+        }
+
+
+        .container {
+            padding: 25px;
+            background-color: rgb(181, 195, 200);
+        }
+    </style>
+</head>
+
+<body>
+    <center>
+        <h1> EVENTO Event Details </h1>
+    </center>
+    <form>
+        <div class="container">
+            <label>Event-Name : </label>
+            <input type="text" placeholder="Enter Name of the Event" name="Event-name" required>
+            <label>Event-Date : </label>
+            <br>
+            <input type="Date" placeholder="Enter Date of The Event" name="Event-Date" required>
+            <br>
+            <label>Username : </label>
+            <input type="text" placeholder="Enter The Name of A Pesron" name="Event-theme" >
+            <label>Number of People : </label>
+            <input type="text" placeholder="Enter The Number of people who attend the event" name="Event-theme" >
+            <button type="submit">Apply</button>
+
+            
+            <!-- <input type="checkbox" checked="checked"> Remember me    -->
+            <input type="reset" button type="button" class="cancelbtn"> </button> 
+            <!-- Forgot <a href="#"> password? </a>    -->
+        </div>
+    </form>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- custom js file link  -->
+    <script src="js/script.js"></script>
+
+</body>
+
+
+</html>
